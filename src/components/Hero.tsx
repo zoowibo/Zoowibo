@@ -12,7 +12,7 @@ const PILLS = [
 ];
 
 const STATS = [
-  { number: "2025", label: "Launch Year" },
+  { number: "2026", label: "Launch Year" },
   { number: "100%", label: "Focused Vision" },
   { number: "∞", label: "Possibilities" },
 ];
@@ -54,7 +54,7 @@ export default function Hero() {
       {/* Eyebrow */}
       <p className="hero-eyebrow">
         <span className="eyebrow-dot" />
-        Revolutinising Education System of India
+        Making Indian Education System Tech Driven
       </p>
 
       {/* Headline */}
@@ -68,13 +68,6 @@ export default function Hero() {
       <p className="hero-sub">We&apos;re crafting something extraordinary.</p>
 
       <div className="hero-divider" />
-
-      {/* Body */}
-      <p className="hero-body">
-        We&apos;re working hard behind the scenes to bring you a product that will
-        change the way you work, connect, and grow. Stay ahead — be among the
-        first to experience it.
-      </p>
 
       {/* Email form */}
       {!submitted ? (
